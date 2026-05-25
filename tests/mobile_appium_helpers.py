@@ -31,3 +31,4 @@ def create_appium_driver():
             def get_attribute(self, attr): return "true"
             def quit(self): pass
         return HeadlessDriverSimulator()
+ 
